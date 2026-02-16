@@ -1,0 +1,54 @@
+What are Recommender Systems ?
+
+A recommendation system is an artificial intelligence or AI algorithm, usually associated with machine learning, that uses
+Big Data to suggest or recommend additional products to consumers. These can be based on various criteria, including past purchases, 
+search history, demographic information, and other factors.
+
+Types : 1. Content Based (tags) , 2.Collaborative filtering , 3. Hybrid (collaborative + Content)
+
+Project on Content Based :
+
+1.Start data -> Processing -> model -> websites -> deploy
+
+What is meta-data?
+
+a set of data that describes and gives information about other data. i.e RDMS
+
+What is metadata?
+Metadata is a set of data that provides information about other data. Metadata contextualizes other data — providing information 
+such as when and how it was gathered — which makes the data easier to find, understand, use, and manage.
+
+Step1. Download a dataset from kaggle about movies dataset .
+(currenty what i am using is a metadata set on over 45,000) -->BUILDING AN HYBRID SYSTEM
+
+What is tmdb? --> tmdb is a movie database.
+
+
+Lists: are just like dynamic sized arrays, declared in other languages (vector in C++ and ArrayList in Java). Lists need not be homogeneous always which makes it the most powerful tool in Python.
+
+Tuple: A Tuple is a collection of Python objects separated by commas. In some ways, a tuple is similar to a list in terms of indexing, nested objects, and repetition but a tuple is immutable, unlike lists that are mutable.
+
+Set: A Set is an unordered collection data type that is iterable, mutable, and has no duplicate elements. Python’s set class represents the mathematical notion of a set.
+
+Dictionary: in Python is an ordered (since Py 3.7) [unordered (Py 3.6 & prior)] collection of data values, used to store data values like a map, which, unlike other Data Types that hold only a single value as an element, Dictionary holds key:value pair. Key-value is provided in the dictionary to make it more optimized.
+
+
+we have to convert the movie which is a list to vector so that once the customer watch a movie he is given recommendation of other movie 
+The dataset we are working is on 45,000 movie so we need to convert each movie to a vector . Closed Vector .
+
+text--->vector (text-vectorization) --> I am using Bag of Words
+
+we dont consider stop words --> wt is stop word --> are and or -->we will not do vectorization
+we will automate all the data using scikit-learn library -->Scikit-learn (formerly scikits.learn and also known as sklearn) is a free software machine learning library for the Python programming language.
+
+Stemming -- what is stemming
+ -->In linguistics and linguistic computer science, stemming (reduction of the original form) is a procedure that traces different morphological variants of a word back to their common stem.
+ eg -- ['fighters','fight' , fights]
+-------['fight' ,'fight' , 'fight']
+
+library nltk--
+NLTK (Natural Language Toolkit) Library is a suite that contains libraries and programs for statistical language processing. It is one of the most powerful NLP libraries, which contains packages to make machines understand human language and reply to it with an appropriate response.
+
+
+A Euclidean graph is a graph in which the vertices represent points in the plane, and the edges are assigned lengths equal to the Euclidean distance between those points.
+but here we are using cosine distance -->euclidean graph is not a best practice for big data frames it will fail -->reason we are using -->cosine structure-->similarity and time space are vice versa-->similarity more -- time-space low--->time-space more--similarity less
