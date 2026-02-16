@@ -14,9 +14,7 @@ Content Based Recommender System recommends movies similar to the movie user lik
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API.
 
 used web scraping to get the reviews given by the user in the IMDB site using beautifulsoup4 and performed sentiment analysis on those reviews.
-## Authors
 
-- [@Akash Kumar Jha](https://github.com/Akash1070)
 
 ## Running Flask Api
 
@@ -66,40 +64,7 @@ import requests
 
 [Click HERE To View App](https://netflix-recommendation-system7.herokuapp.com/)
 
-## Screenshot
-![Click HERE To View](https://github.com/Akash1070/Deploying-a-Netflix-Recommender-System-on-Heroku-Cloud/blob/main/Preview.png)
 
-
-## 🚀 About Me
-
-Data Scientist Enthusiast | Petroleum Engineer Graduate | Solving Problems Using Data 
-
-
-# Hi, I'm Akash! 👋
-
-
-## 🔗 Links
-[![github](https://img.shields.io/badge/github-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Akash1070)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akashkumar107/)
-## Tech stack
-![Logo](https://businesstoys.in/assets/programs/full-stack-data-science-professional-program/tools.png)
-
-
-## Other Common Github Profile Sections
-👩‍💻 I’m interested in Petroleum Engineering
-
-🧠 I’m currently learning Data Scientist | Data Analytics | Business Analytics
-
-👯‍♀️ I’m looking to collaborate on Ideas & Data
-
-
-
-
-## 🛠 Skills
-1. Data Scientist
-2. Data Analyst
-3. Business Analyst
-4. Machine Learning 
 
 
 ## Future Plans 
